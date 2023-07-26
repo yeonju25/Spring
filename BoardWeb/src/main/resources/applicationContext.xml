@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+<!-- <bean id="tv" class="polymorphism.SamsungTV">
+		<constructor-arg index="0" ref="apple"></constructor-arg>
+		<constructor-arg index="1" value="350000"></constructor-arg>
+		
+		<property name="speaker" ref="apple"></property>
+		<property name="price" value="150000"></property>
+	</bean>
+	
+	<bean id="sony" class="polymorphism.SonySpeaker">
+	</bean>
+	
+	<bean id="apple" class="polymorphism.AppleSpeaker">
+	</bean> -->
+	
+	<!-- 클래스에 @Component 붙여 놓은 애들만 생성할 것이다 -->
+	<context:component-scan base-package="polymorphism">
+	</context:component-scan>
+	
+</beans>

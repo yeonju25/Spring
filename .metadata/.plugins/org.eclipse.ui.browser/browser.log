@@ -1,0 +1,134 @@
+
+7월 06, 2023 12:17:55.280 NEW SESSION
+7월 06, 2023 12:17:55.280 [4960:4532:0706/121755.277:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 06, 2023 12:49:43.575 [4960:4532:0706/124943.575:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 06, 2023 15:51:14.878 [8632:1684:0706/155114.878:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:15.68 [8632:1684:0706/155115.068:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:15.172 [8632:1684:0706/155115.172:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:15.297 [8632:1684:0706/155115.296:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:15.409 [8632:1684:0706/155115.409:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:15.760 [8632:1684:0706/155115.760:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:15.876 [8632:1684:0706/155115.876:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:15.995 [8632:1684:0706/155115.995:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:16.338 [8632:1684:0706/155116.338:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:17.972 [8632:1684:0706/155117.972:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:19.08 [8632:1684:0706/155119.008:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:22.356 [8632:1684:0706/155122.356:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:23.415 [8632:1684:0706/155123.415:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:23.504 [8632:1684:0706/155123.504:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:23.611 [8632:1684:0706/155123.611:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:51:41.123 [8632:1684:0706/155141.123:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 06, 2023 15:52:40.374 [8632:1684:0706/155240.373:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:40.502 [8632:1684:0706/155240.502:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:40.641 [8632:1684:0706/155240.641:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:40.755 [8632:1684:0706/155240.755:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:40.858 [8632:1684:0706/155240.858:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:41.624 [8632:1684:0706/155241.623:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:41.741 [8632:1684:0706/155241.741:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:42.210 [8632:1684:0706/155242.210:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:42.314 [8632:1684:0706/155242.314:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:42.443 [8632:1684:0706/155242.443:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:42.787 [8632:1684:0706/155242.787:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:42.973 [8632:1684:0706/155242.973:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:43.73 [8632:1684:0706/155243.073:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:43.874 [8632:1684:0706/155243.874:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:48.76 [8632:1684:0706/155248.076:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:48.240 [8632:1684:0706/155248.240:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:48.341 [8632:1684:0706/155248.341:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:48.626 [8632:1684:0706/155248.626:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:48.808 [8632:1684:0706/155248.808:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:48.932 [8632:1684:0706/155248.932:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:49.47 [8632:1684:0706/155249.047:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:49.609 [8632:1684:0706/155249.609:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:52:51.421 [8632:1684:0706/155251.421:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:55:59.902 [8632:1684:0706/155559.902:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:00.744 [8632:1684:0706/155600.744:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:01.140 [8632:1684:0706/155601.140:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:01.251 [8632:1684:0706/155601.251:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:01.849 [8632:1684:0706/155601.849:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:01.950 [8632:1684:0706/155601.950:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:02.71 [8632:1684:0706/155602.071:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:02.900 [8632:1684:0706/155602.900:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:03.105 [8632:1684:0706/155603.104:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:03.266 [8632:1684:0706/155603.266:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:03.622 [8632:1684:0706/155603.622:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:03.763 [8632:1684:0706/155603.763:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:03.873 [8632:1684:0706/155603.873:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:04.417 [8632:1684:0706/155604.417:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:04.542 [8632:1684:0706/155604.542:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:04.656 [8632:1684:0706/155604.655:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:04.768 [8632:1684:0706/155604.768:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:05.449 [8632:1684:0706/155605.449:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:05.572 [8632:1684:0706/155605.572:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:05.687 [8632:1684:0706/155605.687:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:06.367 [8632:1684:0706/155606.367:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:06.529 [8632:1684:0706/155606.529:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:06.650 [8632:1684:0706/155606.650:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:07.04 [8632:1684:0706/155607.004:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:07.811 [8632:1684:0706/155607.811:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:08.16 [8632:1684:0706/155608.016:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:08.132 [8632:1684:0706/155608.132:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:08.566 [8632:1684:0706/155608.566:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:08.696 [8632:1684:0706/155608.695:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:08.800 [8632:1684:0706/155608.800:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:09.332 [8632:1684:0706/155609.332:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:09.441 [8632:1684:0706/155609.440:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:09.553 [8632:1684:0706/155609.553:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:09.834 [8632:1684:0706/155609.833:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:10.31 [8632:1684:0706/155610.031:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:10.139 [8632:1684:0706/155610.139:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:10.606 [8632:1684:0706/155610.606:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:10.716 [8632:1684:0706/155610.716:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:10.834 [8632:1684:0706/155610.834:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:11.117 [8632:1684:0706/155611.117:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:11.219 [8632:1684:0706/155611.219:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:11.334 [8632:1684:0706/155611.334:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:13.968 [8632:1684:0706/155613.967:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:14.87 [8632:1684:0706/155614.086:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:14.202 [8632:1684:0706/155614.202:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:14.863 [8632:1684:0706/155614.863:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:14.983 [8632:1684:0706/155614.983:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:15.654 [8632:1684:0706/155615.654:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:15.947 [8632:1684:0706/155615.947:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:16.58 [8632:1684:0706/155616.058:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:16.229 [8632:1684:0706/155616.229:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:16.791 [8632:1684:0706/155616.791:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:16.916 [8632:1684:0706/155616.916:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:17.31 [8632:1684:0706/155617.031:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:17.482 [8632:1684:0706/155617.482:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:17.598 [8632:1684:0706/155617.598:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:18.792 [8632:1684:0706/155618.791:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:18.902 [8632:1684:0706/155618.901:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:19.22 [8632:1684:0706/155619.022:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:19.402 [8632:1684:0706/155619.402:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:19.518 [8632:1684:0706/155619.518:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+7월 06, 2023 15:56:20.16 [8632:1684:0706/155620.016:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.864 s for first_image_paint 0.852 s
+
+7월 13, 2023 10:43:15.924 NEW SESSION
+7월 13, 2023 10:43:15.924 [11544:9844:0713/104315.922:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 13, 2023 11:29:15.17 [11544:9844:0713/112915.017:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 13, 2023 16:35:40.991 [11544:9844:0713/163540.991:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+7월 18, 2023 11:54:22.414 NEW SESSION
+7월 18, 2023 11:54:22.414 [11424:10320:0718/115422.411:ERROR:device_event_log_impl.cc(222)] [11:54:22.411] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+
+7월 19, 2023 14:23:52.380 NEW SESSION
+7월 19, 2023 14:23:52.380 [14260:7952:0719/142352.375:ERROR:device_event_log_impl.cc(222)] [14:23:52.374] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+7월 19, 2023 16:23:42.976 [14260:7952:0719/162342.976:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+7월 20, 2023 09:58:19.615 NEW SESSION
+7월 20, 2023 09:58:19.615 [14100:12692:0720/095819.614:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 20, 2023 09:59:33.37 [15636:15192:0720/095933.037:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 20, 2023 11:16:32.723 [15636:16160:0720/111632.723:ERROR:cert_verify_proc_builtin.cc(702)] CertVerifyProcBuiltin for tnnews.co.kr failed:
+7월 20, 2023 11:16:32.724 ----- Certificate i=0 (O=My Company Ltd,L=Newbury,ST=Berkshire,C=GB) -----
+7월 20, 2023 11:16:32.724 ERROR: No matching issuer found
+7월 20, 2023 11:16:32.725 
+7월 20, 2023 11:16:32.725 
+
+7월 21, 2023 10:08:10.124 NEW SESSION
+7월 21, 2023 10:08:10.124 [13400:13048:0721/100810.122:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 21, 2023 10:18:29.665 [4552:13700:0721/101829.665:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+
+7월 25, 2023 09:45:40.963 NEW SESSION
+7월 25, 2023 09:45:40.963 [13984:13284:0725/094540.960:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 25, 2023 09:49:56.478 [3196:1168:0725/094956.478:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 

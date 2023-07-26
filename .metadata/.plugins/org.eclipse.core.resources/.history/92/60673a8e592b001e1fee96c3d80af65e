@@ -1,0 +1,36 @@
+package ex05;
+
+@FunctionalInterface
+interface Printable{
+	void print();
+}
+
+class Papers{
+	private String con;
+	public Papers(String con) {
+		this.con = con;
+	}
+	
+	public Printable getPrinter() {		// 람다식으로 변형
+//		return new Printable() {
+//			@Override
+//			public void print() {
+//				System.out.println("msg : " + con);
+//			}
+//		};
+		return () -> System.out.println("msg : " + con);
+		// 반환타입이 Printable이기 때문에 이 람다식은 인터페이스 Printable을 구현한 것임을 코드 보고 알면 된다
+		
+		// 람다함수... void print(); 구현
+		// 람다함수 만들 수 있는 대상 : 함수형 인터페이스 (추상메소드가 하나만 존재하는 인터페이스)
+	}
+}
+
+public class RamdaClassExam {
+
+	public static void main(String[] args) {
+		
+		Papers p = new Papers("람다클래스 출력");
+		p.getPrinter().print();
+	}
+}

@@ -1,0 +1,7 @@
+UTF-8 설정하기
+
+window proferences > enc검색
+content types에 디폴트 엔코딩에 utf-8입력하고 업데이트
+workspace > text file encoding other에 utf-8로 변경
+
+css파일 / html파일 / jsp파일 엔코딩 모두 utf-8로 변경

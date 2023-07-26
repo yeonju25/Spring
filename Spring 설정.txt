@@ -1,0 +1,38 @@
+Spring Legacy Project 만들기 
+
+Spring MVC project 없으면 configure templates눌러서 spring-defaults 빼고 두개 remove
+그리고 sts 재실행하면 뜸
+
+next해서 com.springbook.biz 치고 finish 하면 오른쪽 아래에서 무언가를 막 다운받음
+
+Properties들어가서 project facets에서 자바 버전 바꿔주고 런타임 눌러서 톰캣도 추가해줌
+
+pom.xml 열기
+<properties>
+	<java-version>11</java-version>
+	<org.springframework-version>5.2.7.RELEASE</org.springframework-version>
+	<org.aspectj-version>1.6.10</org.aspectj-version>
+	<org.slf4j-version>1.6.6</org.slf4j-version>
+</properties>
+--> 자바 버전 11로 바꾸고 프레임워크 버전도 적당히 바꿔줘야 함 선생님은 5.2.7 사용
+--> 저장하면 알아서 업데이트함
+
+<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-compiler-plugin</artifactId>
+	<version>2.5.1</version>
+	<configuration>
+                    <source>11</source>
+                    <target>11</target>
+                    <compilerArgument>-Xlint:all</compilerArgument>
+                    <showWarnings>true</showWarnings>
+                    <showDeprecation>true</showDeprecation>
+ 	</configuration>
+</plugin>
+
+--> 여기도 자바 버전 11로 바꿔주기
+
+
+
+<bean id="tv" class="polymorphism.SamsungTV"></bean>
+ tv = new SamsungTV();랑 같다고 생각하면 됨, bean은 객체 생성...

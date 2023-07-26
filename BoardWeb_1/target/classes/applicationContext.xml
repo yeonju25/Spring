@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id="tv" class="polymorphism.SamsungTV" init-method="init" destroy-method="destroy"></bean> -->
+	
+	<bean id="tv" class="polymorphism.SamsungTV" >
+		<!-- 생성자 통해서 초기화 -->
+	<!-- 	<constructor-arg ref="apple"></constructor-arg>
+			기본 scope타입은 singleton / 객체 한번 생성해서 계속 여러 번 호출해도 그것 가져다 씀
+		 	scope타입을 prototype으로 바꾸면 객체를 호출할때마다 새 객체 생성함 -->
+		
+		<!-- setter 통해서 초기화 -->
+		<property name="speaker" ref="sony"></property>
+	
+	</bean>
+	
+	<!--  bean == 객체  -->
+	<bean id="lg" class="polymorphism.LgTV"></bean>
+	<!-- 위 문장이 다음과 동일 = LgTV tv = new LgTV(); -->
+	
+	<bean id="sony" class="polymorphism.SonySpeaker"></bean>
+	<bean id="apple" class="polymorphism.AppleSpeaker"></bean>
+	
+	
+</beans>

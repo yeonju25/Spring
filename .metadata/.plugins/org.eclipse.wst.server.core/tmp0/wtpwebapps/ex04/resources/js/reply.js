@@ -1,0 +1,132 @@
+console.log("reply Module...");
+
+var replyService=(function(){           // replyService.add(vo) 이렇게 요청이 들어옴
+    function add(reply, callback, error){   
+        console.log("reply.......");
+
+        // 비동기 전송
+        $.ajax({
+            
+            type : "post",                                   // 전송할 method 타입
+            url : "/replies/new",                            // 보낼 주소
+            data : JSON.stringify(reply),                    // 자바 객체를 json으로 변형
+            contentType : "application/json; charset=utf-8", // 전송할 type 설정
+
+            success : function(result, status, xhr){
+                if(callback){
+                    callback(result);
+                }
+            },
+            error : function(xhr, status, er){
+                if(error){
+                    error(er);
+                }
+            }
+        })
+    }   // add end
+
+    function getList(param, callback, error){
+        let bno = param.bno;
+        
+        let page = param.page || 1;     // 페이지값이 없으면 1 넣겠다.
+
+        $.ajax({
+                type : "get",
+                url : "/replies/pages" + "/" + bno + "/" + page,
+            success : function(result, status, xhr){
+                if(callback){
+                 //   callback(result);
+                    callback(result.replyCnt, result.list);
+                }
+            },
+            error:function(xhr, status, er){
+                if(error){
+                    error(er);
+                }
+            }
+        })
+    }   // getList end
+
+
+    function remove(rno, callback, error){
+        
+        $.ajax({
+                type : "delete",
+                url : "/replies/" + rno,
+
+            success : function(result, status, xhr){
+                if(callback)    callback(result);
+            },
+            error : function(er, status, xhr){
+                if(error)   error(er);
+            }
+        });
+    }   // remove end
+
+    function update(reply, callback, error){
+
+        $.ajax({
+                type : "patch",
+                url : "/replies/" + reply.rno,
+                data : JSON.stringify(reply),
+                contentType : "application/json; charset: utf-8",
+            success : function(result, status, xhr){
+                if(callback)    callback(result);
+            },
+            error : function(er, status, xhr){
+                if(error)   error(er);
+            }
+        });
+    }   // update end
+
+    function get(rno, callback, error){
+
+        $.ajax({
+                type : "get",
+                url : "/replies/" + rno,
+                
+            success : function(result, status,xhr){
+                if(callback)    callback(result);
+            },
+            error : function(er, status, xhr){
+                if(error)   error(er);
+            }
+        });
+    }   // get end
+
+    function displayTime(timeValue){
+        var today = new Date();
+
+        var gap = today.getTime() - timeValue;
+
+        var dateObj = new Date(timeValue);
+
+        var str= "";
+        if(gap < (1000*60*60*24)){
+            var hh = dateObj.getHours();
+            var mi = dateObj.getMinutes();
+            var ss = dateObj.getSeconds();
+            
+            return [(hh > 9 ? '' : '0') + hh, ':', (mi > 9 ? '' : '0') + mi, ':', (ss > 9 ? '' : '0') + ss].join('');
+        }else {
+            var yy = dateObj.getFullYear();
+            var mm = dateObj.getMonth() + 1;
+            var dd = dateObj.getDate();
+
+            return [yy, '/', (mm > 9 ? '' : '0') + mm, '/', (dd > 9 ? '' : '0') + dd].join('');
+        }
+
+    }
+
+    return {
+        add : add,
+        getList : getList,
+        remove : remove,
+        update : update,
+        get : get,
+        displayTime : displayTime
+    };
+
+})();
+
+// replyService.add()

@@ -1,0 +1,94 @@
+package org.zerock.controller;
+
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.zerock.domain.Criterial;
+import org.zerock.domain.ReplyVO;
+import org.zerock.service.ReplyService;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@RestController
+@RequestMapping("/replies/")
+@Slf4j
+@RequiredArgsConstructor
+public class ReplyController {
+	
+	private final ReplyService replyService;
+	
+	@PostMapping(value = "/new", consumes = "application/json", produces = {MediaType.TEXT_PLAIN_VALUE})
+	public ResponseEntity<String> create(@RequestBody ReplyVO vo){
+		log.info("ReplyVO : {} ", vo);
+		
+		int insertCount = replyService.register(vo);
+		
+		return insertCount == 1 ? new ResponseEntity<String>("success", HttpStatus.OK)
+								: new ResponseEntity<String>(HttpStatus.INTERNAL_SERVER_ERROR);
+	}
+	
+	// 특정 게시물의 댓글 확인
+	// localhost:8081/replies/pages/1000/1
+	@GetMapping(value = "/pages/{bno}/{page}", produces = {MediaType.APPLICATION_JSON_VALUE,
+										MediaType.APPLICATION_XML_VALUE})
+	public ResponseEntity<List<ReplyVO>> getList(@PathVariable("bno")Long bno, @PathVariable("page") int page){
+		Criterial cri = new Criterial(page, 10);
+		
+		log.info("bno : {}, pages : {}", bno, page);
+		return new ResponseEntity<>(replyService.getList(cri, bno), HttpStatus.OK);
+	}
+	// select * from tbl_reply where bno=1000
+	
+	
+	// 삭제 
+	@DeleteMapping(value = "/{rno}", produces = MediaType.TEXT_PLAIN_VALUE)
+	public ResponseEntity<String> remove(@PathVariable("rno") Long rno){
+		log.info("rno ==> {}", rno);
+		
+//		return replyService.remove(rno) == 1 ? new ResponseEntity<String>("삭제 성공", HttpStatus.OK)
+//								: new ResponseEntity<String>(HttpStatus.INTERNAL_SERVER_ERROR);
+		return replyService.remove(rno) == 1 ? ResponseEntity.ok("success")
+								: ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+	}
+
+	// 수정, 교재 397p, 선생님은 패치로 하신다고 함 
+	// consumes : 값이 날아오는걸 어떤 형식으로 소비하겠다...? 여튼 이 매핑이 받는 값의 형식, 형태 // 포스트맨에서 보낼 때 형식 json으로 해서 보내야한다는건가봐
+	// produces  : 클라이언트의 요청이 들어왔을 때 return을 이런 타입으로 보내겠다고 정해두는 것...?
+	// @*Mapping 안의 value의 rno와 @PathVariable("rno")의 이름은 같아야 한다. 나머지는 꼭 같지 않아도 괜찮음
+	// @RequestBody = vo에 값을 세팅해 주는 역할 (cf. @ResponseBody 리턴을 문자열로 해주는 역할)
+	// @RequestBody ReplyVO vo = JSON타입을 자바 객체로 바꿔준다
+	// localhost:8081/replies/1
+	@PatchMapping(value = "/{rno}", consumes = "application/json", produces = MediaType.TEXT_PLAIN_VALUE)
+	public ResponseEntity<String> modify(@RequestBody ReplyVO vo, @PathVariable("rno") Long rno){
+		// 포스트맨 바디에서 vo내용 적어서 보내면 @RequestBody를 통해서 그 값이 vo에 들어간다.(그래서 Setter 꼭 필요)
+		
+		log.info("rno : {}, vo : {}", rno, vo);
+		vo.setRno(rno);
+		return replyService.modify(vo) == 1 ? new ResponseEntity<String>("수정 성공", HttpStatus.OK)
+		: new ResponseEntity<String>(HttpStatus.INTERNAL_SERVER_ERROR);
+	}
+	
+	
+	// 데이터 1건 가져오기
+	// 매핑에 "{}"안의 값이 있으면 @PathVariable로 거기에 들어갈 걸 설정해줘야 함
+	// localhost:8081/replies/1
+	@GetMapping(value = "/{rno}", produces = {MediaType.APPLICATION_JSON_VALUE,
+										MediaType.APPLICATION_XML_VALUE})
+	public ResponseEntity<ReplyVO> get(@PathVariable("rno") Long rno){
+		
+		return new ResponseEntity<ReplyVO>(replyService.get(rno) , HttpStatus.OK);
+	}
+}

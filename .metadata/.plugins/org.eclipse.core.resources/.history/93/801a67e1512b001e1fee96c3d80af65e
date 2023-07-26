@@ -1,0 +1,36 @@
+package ex03;
+
+import ex02.Papers;
+import ex02.Printable;
+
+// 익명 클래스 
+interface Printable{
+	void print();
+}
+
+class Papers{
+	private String con;
+	public Papers(String con) {
+		this.con = con;
+	}
+	
+	public Printable getPrinter() {
+		return new Printable() {
+			@Override
+			public void print() {
+				System.out.println("msg : " + con);
+			}
+		};
+	}
+}
+
+public class AnonymousClassExam {
+	
+	public static void main(String[] args) {
+		Papers p = new Papers("이 문장 출력!");
+		
+		Printable prn = p.getPrinter();
+		
+		prn.print();
+	}
+}
